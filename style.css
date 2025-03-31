@@ -1,36 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #333;
-    color: white;
     padding: 10px 0;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-header nav ul li {
-    margin: 0 20px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
 }
 
-section {
+#about {
     padding: 20px;
-    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.profile-img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 20px auto; /* Center the image */
 }
 
 #projects {
