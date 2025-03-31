@@ -34,7 +34,12 @@ section {
 }
 
 #projects {
+    display: none; /* Hide the Projects section initially */
     margin-top: 40px;
+}
+
+#projects:target {
+    display: block; /* Show the Projects section when targeted */
 }
 
 .project iframe {
