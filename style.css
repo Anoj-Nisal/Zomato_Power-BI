@@ -90,23 +90,28 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-/* Style for the Show Projects Button */
-#projects {
+/* Show projects when #projects is targeted */
+:target#projects {
     display: block;
+}
+
+/* Style for the Show Projects Button */
+.show-btn {
+    display: block;
+    text-align: center;
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #333; /* Dark color instead of blue */
     color: white;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
     border-radius: 5px;
+    width: fit-content;
 }
 
-#showProjectsBtn:hover {
-    background-color: #0056b3;
+.show-btn:hover {
+    background-color: #555;
 }
-
 .project iframe {
     max-width: 100%;
     height: 600px;
