@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 /* Style for the Show Projects Button */
-#showProjectsBtn {
+#projects {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
